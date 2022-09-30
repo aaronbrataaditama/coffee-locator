@@ -14,6 +14,7 @@ public class CoffeeLocationController : ControllerBase
     }
 
     [HttpGet]
+    [Authorize]
     [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(NearByResult))]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<IActionResult> GetNearbyCoffee([FromQuery]double longitude, [FromQuery] double latitude, [FromQuery] int radius = 1000)
