@@ -1,0 +1,12 @@
+﻿global using System.Text;
+global using System.Security.Claims;
+global using System.IdentityModel.Tokens.Jwt;
+global using AutoMapper;
+global using Microsoft.AspNetCore.Identity;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.IdentityModel.Tokens;
+global using Microsoft.AspNetCore.Mvc.Filters;
+global using Microsoft.AspNetCore.Mvc;
+global using CoffeeLocator.Repo.Models;
+global using CoffeeLocator.Repo.DTO;
+global using CoffeeLocator.Repo.Data;
