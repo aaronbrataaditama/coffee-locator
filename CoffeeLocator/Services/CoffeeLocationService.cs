@@ -20,7 +20,7 @@ public class CoffeeLocationService : ICoffeeLocationService
         {
             Key = googleApiKey,
             Name = COFFEE_CATEGORY,
-            Location = new GoogleApi.Entities.Common.Coordinate(longitude, latitude),
+            Location = new GoogleApi.Entities.Common.Coordinate(latitude, longitude),
             Radius = radius
         };
 
